@@ -1,0 +1,132 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	background-image: url("/image/login1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	justify-content: center;
+	filter: blur(5px);
+}
+
+.outer {
+	height: 50%;
+	width: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 0.7;
+	background-color: rgb(159, 181, 255);
+	transform: translate(-50%, -50%);
+	border-radius: 5%;
+	transition: transform 0.3s ease-in;
+	transform-origin: center; /* Set the transform origin to the center */
+}
+
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+input {
+	width: 20vw;
+	height: 2rem;
+	border-radius: 2rem;
+}
+
+.email:hover {
+	border: solid 3px rgb(0, 0, 0);
+}
+
+.password:hover {
+	border: solid 3px rgb(0, 0, 0);
+}
+
+.btn {
+	height: 2rem;
+	border: 0;
+	position: relative;
+	text-align: center;
+	justify-content: space-evenly;
+	display: flex;
+	transition: 0.2s ease-in-out 0s;
+}
+
+.login-btn {
+	width: 30%;
+	border-radius: 1rem;
+}
+
+.login-btn:hover {
+	background-color: rgb(78, 255, 196);
+	cursor: pointer;
+	transform: scale(1.25);
+	border-radius: 0.8rem;
+	color: #000;
+}
+
+.forgot-btn {
+	width: 90px;
+	border-radius: 1rem;
+	
+}
+
+.forgot-btn:hover {
+	background-color: rgb(255, 124, 101);
+	cursor: pointer;
+	
+	border-radius: 0.8rem;
+	color: #000;
+}
+
+h1 {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	justify-content: center;
+}
+
+.draw {
+  position: fixed;
+  left: -65px;
+  bottom: -10px;
+  z-index: 1;
+}
+.draw img{
+	
+  height:85vh;
+}
+.forgot-link{
+	width: 50%;
+	height:2rem;
+	background-color:#E0E1E2;
+	border-radius: 1rem;
+	text-decoration: none;
+	color:black;
+	font-weight: 100;
+display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size:small;
+}
+.forgot-link:hover{
+	background-color:rgb(255, 73, 73);
+	width:60%;
+	height:2.5rem;
+	border:2px solid white;
+	
+}

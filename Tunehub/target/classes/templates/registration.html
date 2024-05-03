@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Register Here!</title>
+<link rel="stylesheet" href="/css/registration.css">
+</head>
+<body>
+    <div class="main"></div>
+    <div class="draw">
+      <img src="/image/register2.svg" alt="" />
+    </div>
+    <div class="content">
+      <div class="inside">
+        <h1>Sign Up</h1>
+
+        <form action="/register" method="post">
+          <label>Username : </label>
+          <input
+            type="text"
+            name="username"
+            placeholder="   Username"
+            class="shape"
+          /><br /><br />
+
+          <label>Email : </label>
+          <input
+            type="email"
+            name="email"
+            class="shape"
+            placeholder="   Email"
+          /><br /><br />
+
+          <label>Password : </label>
+          <input
+            type="password"
+            name="password"
+            class="shape"
+            placeholder="   Password"
+          /><br /><br />
+
+          <label>Gender : </label>
+          <label
+            ><input
+              type="radio"
+              name="gender"
+              value="male"
+              class="shape"
+            />Male</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="gender"
+              value="female"
+              class="shape"
+            />Female</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="gender"
+              value="other"
+              class="shape"
+            />Other</label
+          >
+          <br /><br />
+
+          <label>Role : </label>
+          <label><input type="radio" name="role" value="Admin" />Admin</label>
+          <label
+            ><input type="radio" name="role" value="Customer" />Customer</label
+          >
+          <br /><br />
+
+          <label>Address</label>
+          <textarea
+            name="address"
+            class="shape"
+            placeholder="   Address"
+          ></textarea>
+          <br /><br />
+
+          <input type="submit" value="Submit" class="shape submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

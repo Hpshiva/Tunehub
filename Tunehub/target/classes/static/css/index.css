@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.main img
+{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.img{
+    
+    display: flex   ;
+    position: absolute;
+    right: 20%;
+    top: 89%;
+    gap: 15%;
+    
+}
+
+
+input{
+	
+    width: 11rem;
+    height: 3rem;
+    box-shadow: 3.5px 7.0px 7.0px hsl(0deg 0% 0% / 0.39);
+}
